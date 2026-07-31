@@ -1,7 +1,29 @@
 aid: next-academy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/next-academy.png
 name: NEXT Academy
-description: NEXT Academy is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  NEXT Academy is a software engineering bootcamp operating across Malaysia and
+  Singapore that trains junior developers through full-time, hands-on coding
+  programs. Its flagship Quantum Degrees cover full-stack web development,
+  frontend, and backend engineering, pairing project-based challenges with
+  personalized mentorship. Founded to help close the region's tech-talent gap,
+  NEXT Academy has produced 2,800+ graduates from 50+ countries, with alumni
+  placed at companies including Google, Uber, AirAsia, Fave, and Mindvalley. It
+  is backed by 500 Global. NEXT Academy publishes no public developer API, SDK,
+  or API documentation surface as of this profile; its primary digital surfaces
+  are a marketing website and a student learning-management portal at
+  lms.nextacademy.com.
 url: https://raw.githubusercontent.com/api-evangelist/next-academy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Education
+- Coding Bootcamp
+- Developer Training
+- EdTech
+- Software Engineering
+- Southeast Asia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,16 @@ maintainers:
 common:
 - type: Website
   url: https://nextacademy.com
+- type: Blog
+  url: https://nextacademy.com/blog/
+- type: TermsOfService
+  url: https://nextacademy.com/tnc/terms
+- type: PrivacyPolicy
+  url: https://nextacademy.com/tnc/privacy-policy
+- type: DomainSecurity
+  url: security/next-academy-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
